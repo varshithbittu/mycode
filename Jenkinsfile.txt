@@ -1,1 +1,19 @@
-echo"this is the file of jenkin."
+pipeline {
+ agent any 
+ stages { 
+ stage("build"){
+ steps{
+ echo 'Building the appilcation....'
+ }
+ }
+ stage("test"){
+ steps{
+ echo ' testing the application...'
+ }
+ }
+ stage("deploy") {
+ steps{
+ echo 'deploying the application...'
+ }
+ }
+ 
