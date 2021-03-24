@@ -1,6 +1,0 @@
-<html>
-<title>my first program</title>
-<body>
-<h1>my first program in git</h1>
-</body>
-</html>
